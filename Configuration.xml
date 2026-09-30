@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Configuration uuid="a1111111-0000-0000-0000-000000000001">
+		<Properties>
+			<Name>МебельТорг</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>МебельТорг</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Конфигурация учёта мебельной торговой компании</Comment>
+			<NamePrefix></NamePrefix>
+			<ConfigurationExtensionCompatibilityMode>8.3.20</ConfigurationExtensionCompatibilityMode>
+			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<UsePurposes>
+				<v8:Value xsi:type="xs:string">PlatformApplication</v8:Value>
+			</UsePurposes>
+			<ScriptVariant>Russian</ScriptVariant>
+			<DefaultLanguage>Language</DefaultLanguage>
+			<Vendor>МебельТорг</Vendor>
+			<Version>1.0.0.1</Version>
+			<UpdateCatalogAddress></UpdateCatalogAddress>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
+			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
+			<AdditionalFullTextSearchDictionaries></AdditionalFullTextSearchDictionaries>
+			<CompatibilityMode>DontUse</CompatibilityMode>
+			<DefaultRoleName></DefaultRoleName>
+		</Properties>
+		<ChildObjects>
+			<Language>Language</Language>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Склады</Catalog>
+		</ChildObjects>
+	</Configuration>
+</MetaDataObject>
